@@ -7,10 +7,10 @@
 
 nums = []
 
-get-nums() = \
-	nums = input("Give me a number: ")
+def get-nums():
+	nums = input("Give me a number: ") #append?
 
-done() = \
+def done():
 	input()done #?
 
 print "Good morning. I am Atom your personal assistant. I can help you sort a list of numbers. Enter one number on each line, 'Done' when you are finished.
