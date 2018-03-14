@@ -7,10 +7,10 @@
 
 nums = []
 
-get-nums() = 
+get-nums() = \
 	nums = input("Give me a number: ")
 
-done() =
+done() = \
 	input()done #?
 
 print "Good morning. I am Atom your personal assistant. I can help you sort a list of numbers. Enter one number on each line, 'Done' when you are finished.
@@ -25,5 +25,6 @@ while True:
 print "Here are your 6 numbers sorted least to greatest: 
 
 ", nums
+
 
 
